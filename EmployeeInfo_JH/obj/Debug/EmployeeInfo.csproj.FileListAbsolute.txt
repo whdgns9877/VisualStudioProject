@@ -1,0 +1,8 @@
+C:\Users\JongHoon\OneDrive\바탕 화면\VisualStudioProjects\EmployeeInfo\bin\Debug\EmployeeInfo.exe.config
+C:\Users\JongHoon\OneDrive\바탕 화면\VisualStudioProjects\EmployeeInfo\bin\Debug\EmployeeInfo.exe
+C:\Users\JongHoon\OneDrive\바탕 화면\VisualStudioProjects\EmployeeInfo\bin\Debug\EmployeeInfo.pdb
+C:\Users\JongHoon\OneDrive\바탕 화면\VisualStudioProjects\EmployeeInfo\obj\Debug\EmployeeInfo.csproj.AssemblyReference.cache
+C:\Users\JongHoon\OneDrive\바탕 화면\VisualStudioProjects\EmployeeInfo\obj\Debug\EmployeeInfo.csproj.SuggestedBindingRedirects.cache
+C:\Users\JongHoon\OneDrive\바탕 화면\VisualStudioProjects\EmployeeInfo\obj\Debug\EmployeeInfo.csproj.CoreCompileInputs.cache
+C:\Users\JongHoon\OneDrive\바탕 화면\VisualStudioProjects\EmployeeInfo\obj\Debug\EmployeeInfo.exe
+C:\Users\JongHoon\OneDrive\바탕 화면\VisualStudioProjects\EmployeeInfo\obj\Debug\EmployeeInfo.pdb

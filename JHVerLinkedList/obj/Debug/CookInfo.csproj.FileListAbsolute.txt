@@ -1,0 +1,8 @@
+C:\Users\JongHoon\OneDrive\바탕 화면\VisualStudioProjects\CookInfo\bin\Debug\CookInfo.exe.config
+C:\Users\JongHoon\OneDrive\바탕 화면\VisualStudioProjects\CookInfo\bin\Debug\CookInfo.exe
+C:\Users\JongHoon\OneDrive\바탕 화면\VisualStudioProjects\CookInfo\bin\Debug\CookInfo.pdb
+C:\Users\JongHoon\OneDrive\바탕 화면\VisualStudioProjects\CookInfo\obj\Debug\CookInfo.csproj.AssemblyReference.cache
+C:\Users\JongHoon\OneDrive\바탕 화면\VisualStudioProjects\CookInfo\obj\Debug\CookInfo.csproj.SuggestedBindingRedirects.cache
+C:\Users\JongHoon\OneDrive\바탕 화면\VisualStudioProjects\CookInfo\obj\Debug\CookInfo.csproj.CoreCompileInputs.cache
+C:\Users\JongHoon\OneDrive\바탕 화면\VisualStudioProjects\CookInfo\obj\Debug\CookInfo.exe
+C:\Users\JongHoon\OneDrive\바탕 화면\VisualStudioProjects\CookInfo\obj\Debug\CookInfo.pdb
