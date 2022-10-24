@@ -8,11 +8,11 @@ namespace StudentInfo_JH
 {
     internal class Node
     {
+        public NodeData nodeData;
 
-    }
+        public Node nextData;
+        public Node prev;
 
-    public struct NodeData
-    {
-        
+        public Node nextList;
     }
 }

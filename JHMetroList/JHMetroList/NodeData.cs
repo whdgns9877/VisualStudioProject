@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JHMetroList
 {
-    internal class NodeData
+    internal struct NodeData
     {
         public string station;
         public int num;

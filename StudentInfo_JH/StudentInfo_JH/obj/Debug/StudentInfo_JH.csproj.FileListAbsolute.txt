@@ -1,0 +1,8 @@
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\StudentInfo_JH\StudentInfo_JH\obj\Debug\StudentInfo_JH.csproj.AssemblyReference.cache
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\StudentInfo_JH\StudentInfo_JH\obj\Debug\StudentInfo_JH.csproj.SuggestedBindingRedirects.cache
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\StudentInfo_JH\StudentInfo_JH\obj\Debug\StudentInfo_JH.csproj.CoreCompileInputs.cache
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\StudentInfo_JH\StudentInfo_JH\bin\Debug\StudentInfo_JH.exe.config
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\StudentInfo_JH\StudentInfo_JH\bin\Debug\StudentInfo_JH.exe
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\StudentInfo_JH\StudentInfo_JH\bin\Debug\StudentInfo_JH.pdb
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\StudentInfo_JH\StudentInfo_JH\obj\Debug\StudentInfo_JH.exe
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\StudentInfo_JH\StudentInfo_JH\obj\Debug\StudentInfo_JH.pdb
