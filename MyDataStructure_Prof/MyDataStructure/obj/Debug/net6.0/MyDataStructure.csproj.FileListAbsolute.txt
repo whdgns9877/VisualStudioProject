@@ -13,11 +13,6 @@ E:\School\c_sharp\MyDataStructure\MyDataStructure\obj\Debug\net6.0\refint\MyData
 E:\School\c_sharp\MyDataStructure\MyDataStructure\obj\Debug\net6.0\MyDataStructure.pdb
 E:\School\c_sharp\MyDataStructure\MyDataStructure\obj\Debug\net6.0\MyDataStructure.genruntimeconfig.cache
 E:\School\c_sharp\MyDataStructure\MyDataStructure\obj\Debug\net6.0\ref\MyDataStructure.dll
-C:\Users\whdgn\Downloads\MyDataStructure\MyDataStructure\bin\Debug\net6.0\MyDataStructure.exe
-C:\Users\whdgn\Downloads\MyDataStructure\MyDataStructure\bin\Debug\net6.0\MyDataStructure.deps.json
-C:\Users\whdgn\Downloads\MyDataStructure\MyDataStructure\bin\Debug\net6.0\MyDataStructure.runtimeconfig.json
-C:\Users\whdgn\Downloads\MyDataStructure\MyDataStructure\bin\Debug\net6.0\MyDataStructure.dll
-C:\Users\whdgn\Downloads\MyDataStructure\MyDataStructure\bin\Debug\net6.0\MyDataStructure.pdb
 C:\Users\whdgn\Downloads\MyDataStructure\MyDataStructure\obj\Debug\net6.0\MyDataStructure.csproj.AssemblyReference.cache
 C:\Users\whdgn\Downloads\MyDataStructure\MyDataStructure\obj\Debug\net6.0\MyDataStructure.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\whdgn\Downloads\MyDataStructure\MyDataStructure\obj\Debug\net6.0\MyDataStructure.AssemblyInfoInputs.cache
@@ -26,5 +21,11 @@ C:\Users\whdgn\Downloads\MyDataStructure\MyDataStructure\obj\Debug\net6.0\MyData
 C:\Users\whdgn\Downloads\MyDataStructure\MyDataStructure\obj\Debug\net6.0\MyDataStructure.dll
 C:\Users\whdgn\Downloads\MyDataStructure\MyDataStructure\obj\Debug\net6.0\refint\MyDataStructure.dll
 C:\Users\whdgn\Downloads\MyDataStructure\MyDataStructure\obj\Debug\net6.0\MyDataStructure.pdb
-C:\Users\whdgn\Downloads\MyDataStructure\MyDataStructure\obj\Debug\net6.0\MyDataStructure.genruntimeconfig.cache
-C:\Users\whdgn\Downloads\MyDataStructure\MyDataStructure\obj\Debug\net6.0\ref\MyDataStructure.dll
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\MyDataStructure_Prof\MyDataStructure\obj\Debug\net6.0\MyDataStructure.csproj.AssemblyReference.cache
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\MyDataStructure_Prof\MyDataStructure\obj\Debug\net6.0\MyDataStructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\MyDataStructure_Prof\MyDataStructure\obj\Debug\net6.0\MyDataStructure.AssemblyInfoInputs.cache
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\MyDataStructure_Prof\MyDataStructure\obj\Debug\net6.0\MyDataStructure.AssemblyInfo.cs
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\MyDataStructure_Prof\MyDataStructure\obj\Debug\net6.0\MyDataStructure.csproj.CoreCompileInputs.cache
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\MyDataStructure_Prof\MyDataStructure\obj\Debug\net6.0\MyDataStructure.dll
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\MyDataStructure_Prof\MyDataStructure\obj\Debug\net6.0\refint\MyDataStructure.dll
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\MyDataStructure_Prof\MyDataStructure\obj\Debug\net6.0\MyDataStructure.pdb

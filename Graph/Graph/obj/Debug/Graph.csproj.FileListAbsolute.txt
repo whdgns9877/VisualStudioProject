@@ -1,0 +1,8 @@
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\Graph\Graph\bin\Debug\Graph.exe.config
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\Graph\Graph\bin\Debug\Graph.exe
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\Graph\Graph\bin\Debug\Graph.pdb
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\Graph\Graph\obj\Debug\Graph.csproj.AssemblyReference.cache
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\Graph\Graph\obj\Debug\Graph.csproj.SuggestedBindingRedirects.cache
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\Graph\Graph\obj\Debug\Graph.csproj.CoreCompileInputs.cache
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\Graph\Graph\obj\Debug\Graph.exe
+C:\Users\whdgn\Desktop\VisualStudioProj\VisualStudioProject\Graph\Graph\obj\Debug\Graph.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\whdgn\\Downloads\\MyDataStructure\\MyDataStructure\\MyDataStructure.csproj": {}
+    "C:\\Users\\whdgn\\Desktop\\VisualStudioProj\\VisualStudioProject\\MyDataStructure_Prof\\MyDataStructure\\MyDataStructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\whdgn\\Downloads\\MyDataStructure\\MyDataStructure\\MyDataStructure.csproj": {
+    "C:\\Users\\whdgn\\Desktop\\VisualStudioProj\\VisualStudioProject\\MyDataStructure_Prof\\MyDataStructure\\MyDataStructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\whdgn\\Downloads\\MyDataStructure\\MyDataStructure\\MyDataStructure.csproj",
+        "projectUniqueName": "C:\\Users\\whdgn\\Desktop\\VisualStudioProj\\VisualStudioProject\\MyDataStructure_Prof\\MyDataStructure\\MyDataStructure.csproj",
         "projectName": "MyDataStructure",
-        "projectPath": "C:\\Users\\whdgn\\Downloads\\MyDataStructure\\MyDataStructure\\MyDataStructure.csproj",
+        "projectPath": "C:\\Users\\whdgn\\Desktop\\VisualStudioProj\\VisualStudioProject\\MyDataStructure_Prof\\MyDataStructure\\MyDataStructure.csproj",
         "packagesPath": "C:\\Users\\whdgn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\whdgn\\Downloads\\MyDataStructure\\MyDataStructure\\obj\\",
+        "outputPath": "C:\\Users\\whdgn\\Desktop\\VisualStudioProj\\VisualStudioProject\\MyDataStructure_Prof\\MyDataStructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\whdgn\\AppData\\Roaming\\NuGet\\NuGet.Config",

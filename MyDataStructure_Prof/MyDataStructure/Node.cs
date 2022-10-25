@@ -1,5 +1,9 @@
 ﻿namespace MyDataStructure
 {
+	public delegate void DelegateTraversalLNode(LNode node);
+	public delegate void DelegateTraversalDNode(DNode node);
+	public delegate void DelegateTraversalBTNode(BTNode node);
+
 	//
 	// 기본 노드 클래스
 	public class LNode
