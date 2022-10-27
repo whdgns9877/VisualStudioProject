@@ -12,13 +12,16 @@ namespace Graph
 {
     internal class Graph
     {
+        // List For nodeList in Graph
         private List<GNode> nodeList;
 
+        // onstructor that runs when a Graph instance is created
         public Graph()
         {
             nodeList = new List<GNode>();
         }
 
+        // add Node in graph
         public GNode AddNode(string name, bool isVisited)
         {
             GNode n = new GNode(name, isVisited);
@@ -26,29 +29,33 @@ namespace Graph
             return n;
         }
 
+        // make edge between two node
         public void AddEdge(GNode from, GNode to, bool oneway)
         {
-            from.Neighbors.Add(to);
+            from.AdjacentNode.Add(to);
             if (oneway == false)
             {
-                to.Neighbors.Add(from);
+                to.AdjacentNode.Add(from);
             }
         }
 
-        // 스택을 이용한 DFS
+        // DFS Using Stack
         public void DFSList(GNode start)
         {
             Console.WriteLine("DFS탐색 시작~");
             Stack<GNode> stack = new Stack<GNode>();
             stack.Push(start);
             start.IsVisited = true;
+            GNode curNode = null;
 
             while (stack.Count > 0)
             {
-                GNode curNode = stack.Pop();
-                for (int i = 0; i < curNode.Neighbors.Count; i++)
+                curNode = stack.Pop();
+                // Based on the current node, among neighboring nodes
+                // unvisited nodes are put on the stack
+                for (int i = 0; i < curNode.AdjacentNode.Count; i++)
                 {
-                    GNode adjacentNode = curNode.Neighbors[i];
+                    GNode adjacentNode = curNode.AdjacentNode[i];
                     if (adjacentNode.IsVisited == false)
                     {
                         adjacentNode.IsVisited = true;
@@ -59,7 +66,7 @@ namespace Graph
             }
         }
 
-        // 큐를 이용한 BFS
+        // BFS Using Queue
         public void BFSList(GNode start)
         {
             Console.WriteLine("BFS탐색 시작~");
@@ -73,11 +80,12 @@ namespace Graph
             while (queue.Count > 0)
             {
                 curNode = queue.Dequeue();
-              
-                // 우선 인접 노드들이 방문전이면 큐에 순서대로 넣어준다
-                for (int i = 0; i < curNode.Neighbors.Count; i++)
+
+                // First, if the adjacent nodes are before visiting
+                // they are put in the queue in order.
+                for (int i = 0; i < curNode.AdjacentNode.Count; i++)
                 {
-                    GNode adjacentNode = curNode.Neighbors[i];
+                    GNode adjacentNode = curNode.AdjacentNode[i];
                     if (adjacentNode.IsVisited == false)
                     {
                         adjacentNode.IsVisited = true;

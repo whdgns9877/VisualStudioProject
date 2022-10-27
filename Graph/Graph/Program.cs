@@ -47,7 +47,7 @@ namespace Graph
             graph.AddEdge(d, e, false);
             graph.AddEdge(e, g, false);
 
-            graph.BFSList(c);
+            graph.BFSList(b);
         }
     }
 }

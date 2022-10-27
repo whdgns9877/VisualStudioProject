@@ -42,7 +42,9 @@ namespace Tree
             tree.InsertNode(6);
             tree.InsertNode(5);
             tree.InsertNode(3);
-            
+
+            tree.Search(1);
+
             tree.PrintPreorder(tree.rootNode);
 
             tree.Delete(4);

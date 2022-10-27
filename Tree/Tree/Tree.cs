@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
@@ -10,21 +11,7 @@ namespace Tree
 {
     internal class Tree
     {
-        private List<TNode> nodeList;
-
         public TNode rootNode = null;
-
-        public Tree()
-        {
-            nodeList = new List<TNode>();
-        }
-
-        public TNode AddNode(int value)
-        {
-            TNode n = new TNode(value);
-            nodeList.Add(n);
-            return n;
-        }
 
         public void InsertNode(int value)
         {
@@ -67,7 +54,12 @@ namespace Tree
 
         public void PrintPostorder(TNode node)
         {
-            if(node != null)
+            if (rootNode == null)
+            {
+                Console.WriteLine("트리에 노드가 하나도 없습니다.");
+                return;
+            }
+            if (node != null)
             {
                 PrintPostorder(node.left);
                 PrintPostorder(node.right);
@@ -77,6 +69,11 @@ namespace Tree
 
         public void PrintMidorder(TNode node)
         {
+            if (rootNode == null)
+            {
+                Console.WriteLine("트리에 노드가 하나도 없습니다.");
+                return;
+            }
             if (node != null)
             {
                 PrintMidorder(node.left);
@@ -85,22 +82,28 @@ namespace Tree
             }
         }
 
-        public TNode Search(int value, TNode pivotNode)
+        public TNode Search(int value)
         {
-            if (value < pivotNode.Value)
+            TNode searchTarget = rootNode;
+            Console.Write("찾고자 하는 노드 : ");
+            while (searchTarget != null)
             {
-                if(value == pivotNode.left.Value)
-                    return null;
-                Search(value, pivotNode.left);
-            }
-            else
-            {
-                if (value == pivotNode.right.Value)            
-                    return null;
-                Search(value, pivotNode);
-            }
+                if (searchTarget.Value == value)
+                    break;
 
-            return pivotNode;
+                if (value < searchTarget.Value)
+                {
+                    Console.Write(searchTarget.Value + " -> ");
+                    searchTarget = searchTarget.left;
+                }
+                else
+                {
+                    Console.Write(searchTarget.Value + " -> ");
+                    searchTarget = searchTarget.right;
+                }
+            }
+            Console.WriteLine(searchTarget.Value);
+            return searchTarget;
         }
 
         public void Delete(int value)
@@ -121,7 +124,7 @@ namespace Tree
                     delTarget = delTarget.right;
             }
 
-            // 삭제할 노드가 자식이 없으면
+            // if delTartget has no child
             if(delTarget.left == null && delTarget.right == null)
             {
                 if (delTargetParnet != null)
@@ -136,21 +139,23 @@ namespace Tree
                     rootNode = null;
                 }
             }
-            // 삭제할 노드가 자식이 있다면
+            // if delTarget has child
             else
             {
-                // 삭제할 노드의 자식이 2개일때
+                // if delTarget has two child
                 if(delTarget.left != null && delTarget.right != null)
                 {
                     TNode maxValInLeft = delTarget.left;
                     //TNode minValInRight = delTarget.right;
-                    // 삭제할 노드의 왼쪽(작은쪽 노드들) 중에 가장 큰 수를 찾는다
-                    while(maxValInLeft != null)
+                    // Find the largest number among the left (smallest nodes)
+                    // of the node to be deleted.
+                    while (maxValInLeft != null)
                     {
                         if (maxValInLeft.right == null) break;
                         maxValInLeft = maxValInLeft.right;
                     }
-                    //// 삭제할 노드의 오른쪽(큰쪽 노드들) 중에 가장 작은 수를 찾는다
+                    //// Find the smallest number on the right (largest nodes) 
+                    //// of the node to be deleted
                     //while (minValInRight != null)
                     //{
                     //    if (minValInRight.left == null) break;
@@ -159,13 +164,15 @@ namespace Tree
 
                     if (delTargetParnet != null)
                     {
-                        // 삭제될 노드의 부모의 왼쪽을 가장 큰 노드로 달아주고
+                        // Set the left side of the parent of the node
+                        // to be deleted as the largest node.
                         delTargetParnet.left = maxValInLeft;
-                        // 왼쪽에 달린 노드의 오른쪽을 삭제될 노드의 기존오른쪽에 달아준다
-                        maxValInLeft.right = delTarget.right;
+                        // Attach the right side of the node attached to the left to the
+                        // right side of the existing node of the node to be deleted
+                        // maxValInLeft.right = delTarget.right;
 
-                        // 삭제노드 기준 왼쪽에서 가장 큰 노드를 달아준 것이므로
-                        // 해당 노드 기준으로 왼쪽 과 기존 노드의 관계를 다시 정해준다
+                        //  Since the largest node is attached to the left of the deleted node,
+                        //  the relationship between the left and the existing node is re - established based on the corresponding node.
                         maxValInLeft.left = delTarget.left;
                         maxValInLeft.left.right = null;
                     }
@@ -176,7 +183,7 @@ namespace Tree
                 }
                 else
                 {
-                    // 자식이 1개일때
+                    //  if delTarget has one child
                     if (delTargetParnet != null)
                     {
                         if (delTargetParnet.left == delTarget)
