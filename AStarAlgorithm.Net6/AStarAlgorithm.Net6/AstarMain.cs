@@ -51,7 +51,7 @@ namespace AStarAlgorithm.Net6
                 for (int x = 0; x < map_width; x++)
                     myMaps[y, x] = new ANode(x,y) {ISBlock = cells[y, x] };
 
-            // FindPath
+            // FindPath (2,4 -> 1,1)
             FindPath(2, 4, 1, 1);
 
             if(findedList.Count > 0)
@@ -179,11 +179,6 @@ namespace AStarAlgorithm.Net6
 
             openList.RemoveAt(0); // 맨 앞에 것을 꺼내는 효과를 위해
             return tartget;
-        }
-
-        void PrintPath()
-        {
-
         }
     }
 }
